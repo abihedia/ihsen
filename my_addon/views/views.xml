@@ -1,6 +1,6 @@
 <odoo>
   <data>
-      <record model="ir.ui.view" id="views_partners_form_crm1">
+      <record model="ir.ui.view" id="view_partners_form_crm1">
       <field name="name">view.res.partner.form.birthday</field>
       <field name="model">res.partner</field>
       <field name="inherit_id" ref="base.view_partner_form"/>
