@@ -1,4 +1,4 @@
--*- coding: utf-8 -*-
+
 
 from odoo import models, fields, api
 
@@ -6,7 +6,6 @@ from odoo import models, fields, api
 class my_addon(models.Model):
     _inherit = 'res.partner'
     
-
     birthday = fields.Datetime('Date of birth')
     
 #     value = fields.Integer()
